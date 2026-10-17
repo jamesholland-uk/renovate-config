@@ -16,4 +16,5 @@ Repo-specific rules (custom managers, package schedules, looser automerge) go in
 
 This repo is private, so the Mend Renovate app must have access to it.
 
-`default.json` is kept identical to the copy in `obsidian-desert-ops/renovate-config`. Change both together.
+When you learn something or improve the policy here (e.g. `internalChecksFilter: strict`), apply it to
+`obsidian-desert-ops/renovate-config` too, if it fits there. That repo deliberately doesn't refer back to this one.
